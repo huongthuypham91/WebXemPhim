@@ -1,0 +1,288 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    background-color: #02080F;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #333333;
+    width: 100%;
+    height: 100px;
+}
+
+.header-content {
+    margin: 0 5rem;
+}
+
+    .header-content > div {
+        padding-left: 6rem;
+    }
+
+.img-logo img {
+    width: 200px;
+    height: 100px;
+}
+
+.search input {
+    height: 25px;
+    width: 300px;
+}
+
+.search {
+    margin-top: 2rem;
+}
+
+    .search i {
+        color: #9b8888;
+        position: absolute;
+        top: 2.3rem;
+        right: 32rem;
+    }
+
+.log {
+    margin-top: 1rem;
+}
+
+    .log > div {
+        padding-left: .5rem;
+    }
+
+.dn a {
+    padding-left: .2rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.log a:hover {
+    color: #9b8888;
+}
+
+.dx a {
+    padding-left: .2rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header > div {
+    display: flex;
+}
+
+.header-content div {
+    display: flex;
+}
+/* ============thanh điều hướng========================== */
+
+.main-menu {
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+
+    .main-menu ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding-top: 1rem;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+        .main-menu ul li {
+            padding: 0 1rem;
+        }
+
+            .main-menu ul li ul li a {
+                text-transform: none;
+                font-size: 13px;
+            }
+
+            .main-menu ul li a {
+                font-family: sans-serif;
+                color: #f2f2f2;
+            }
+
+    .main-menu > ul > li > a:hover {
+        color: #848484;
+    }
+
+    .main-menu ul > li.dropdown > a::after {
+        position: relative;
+        float: right;
+        content: '';
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+
+    .main-menu ul li:hover ul.menu-area {
+        top: 100%;
+    }
+
+    .main-menu ul.menu-area {
+        padding: 40px 40px 0 40px;
+        background-color: #2d2d2d;
+        text-align: left;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 300px;
+        top: -9999px;
+        left: 0;
+    }
+
+        .main-menu ul.menu-area ul li {
+            display: block;
+        }
+/* ============container-fluid============================= */
+
+.container-fluid {
+    margin: 6rem 6.5rem;
+    display: flex;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.col {
+    width: 25%;
+}
+
+.container-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1rem 0;
+}
+
+.title {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: chocolate;
+}
+
+    .title div {
+        width: 120px;
+        height: 2px;
+        background-color: #ffffff;
+    }
+
+.content {
+    text-align: center;
+}
+
+.col .img img {
+    margin-left: .5rem;
+}
+
+.content a {
+    font-family: sans-serif;
+    color: white;
+}
+
+.content p {
+    color: #848484;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+/* =============side-bar=============================== */
+
+.side-bar-content {
+    margin: 1rem 0;
+    background-color: #333333;
+}
+
+.side-bar-content-row {
+    display: flex;
+    border-bottom: #02080F 1px solid;
+}
+
+.row-content {
+    margin-left: 50px;
+}
+
+.td-title a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.year {
+    font-family: sans-serif;
+    color: #848484;
+    font-size: 13px;
+}
+
+.icons i {
+    color: goldenrod;
+}
+/* ============phần footer================ */
+
+.footer {
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 120px;
+}
+
+.footer-content {
+    padding: 1rem 3rem;
+}
+
+    .footer-content .gioithieu {
+        width: 60%;
+        color: #848484;
+    }
+
+.footer-content {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.gioithieu a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.t-title {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.gioithieu a:hover {
+    color: #eb9696;
+}
+
+.footer-content div {
+    padding-left: 2.5rem;
+}
+
+.footer-content i {
+    color: white;
+}
+
+.lienhe a {
+    display: flex;
+}
+
+    .lienhe a p {
+        margin-left: .3rem;
+        color: #848484;
+    }
